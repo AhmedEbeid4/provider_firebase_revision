@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "586106247793",
+    "project_id": "exam-school-d7ef5",
+    "storage_bucket": "exam-school-d7ef5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586106247793:android:4ef701c1a65bd31f2c59d0",
+        "android_client_info": {
+          "package_name": "com.example.exam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586106247793-p0c9n9spl28fbdt9aj9m1ub2qh6fndtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO87KBCASgbLwfma1K4EJ-HFHzl8zSEVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586106247793-p0c9n9spl28fbdt9aj9m1ub2qh6fndtl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

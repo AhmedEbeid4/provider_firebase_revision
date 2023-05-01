@@ -33,6 +33,8 @@ class ProviderExample with ChangeNotifier{
         l.add('$element');
       }
       currData = l;
+    } else {
+      currData.clear();
     }
     isLoading = false;
     notifyListeners();

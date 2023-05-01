@@ -23,10 +23,10 @@ class StartView extends StatelessWidget {
                 child: TextFormField(
                   controller: _controller,
                   validator: (input){
-                    if(input == null || input.isEmpty){
+                    if(input == null || input.trim().isEmpty){
                       return 'Connot be Empty';
                     }
-                    if(!RegExp(r'^[a-zA-Z0-9_]*$').hasMatch(input)){
+                    if(!RegExp(r'^[a-zA-Z0-9_]*$').hasMatch(input.trim())){
                       return 'Invalid input';
                     }
                     return null;
@@ -44,7 +44,7 @@ class StartView extends StatelessWidget {
                     child: ElevatedButton(
                       onPressed: (){
                         if(formKey.currentState!.validate()){
-                          provider.currId = _controller.text;
+                          provider.currId = _controller.text.trim();
                           Navigator.of(context).pushReplacementNamed(HomeView.routeName);
                         }
                       },
